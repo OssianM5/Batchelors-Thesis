@@ -1,0 +1,111 @@
+.wrapper {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    margin: 0;
+    padding: 30px 40px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    color: crimson;
+    border-radius: 10px;
+    background: transparent;
+    overflow-x: auto;
+    box-sizing: border-box;
+  
+    /* Force override common restrictions */
+    max-width: 1200px !important;
+    left: 0;
+    right: 0;
+  }
+
+
+
+.wrapper h1 {
+    background-color: transparent;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history-table-container {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05);
+    
+}
+
+.history-table th,
+.history-table td {
+    border: 1px solid white;
+    padding: 12px 16px;
+    text-align: center;
+    color: white;
+    
+}
+
+.history-table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: crimson;
+    font-weight: bold;
+    
+}
+
+
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+
+.navbar {
+    position: relative;
+    padding: 10px;
+  }
+  
+  .menu-icon {
+    font-size: 32px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10000;
+}
+  
+.menu-dropdown {
+    color: #fff;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    background-color: #1a1a1a; /* Solid dark color for full opacity */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+}
+
+
+  
+  .menu-dropdown a {
+    color: white;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+  
+  .menu-dropdown a:hover {
+    color: crimson;
+    text-decoration: underline;
+  }
+  

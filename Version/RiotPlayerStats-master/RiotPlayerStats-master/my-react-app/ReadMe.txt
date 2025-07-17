@@ -1,0 +1,2 @@
+//pentru interfata
+npm start 
